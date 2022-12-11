@@ -1,0 +1,111 @@
+
+main div.homepage-hero section {
+  padding: 3rem 0;
+}
+
+.light header.main-document-header-container {
+  background-color: rgb(224, 238, 255);
+}
+
+.light header.main-document-header-container.dark {
+  background-color: rgb(37, 37, 37);
+}
+
+nav.main-nav ul.main-menu li:nth-child(3) {
+  display: none;
+}
+
+
+ul.auth-container {
+  display: none;
+}
+
+div.main-wrapper {
+  padding-left: 0;
+}
+
+
+div.header-search form .has-search-results {
+  border: 1px solid var(--accent-primary) !important;
+}
+
+.header-search .search-input-field:not(:focus) {
+  text-decoration-line: none !important;
+}
+
+#top-nav-search-input {
+  text-decoration: none !important;
+}
+
+article.main-page-content section {
+  border-top: 1px solid rgb(202, 202, 202);
+  margin-top: 4rem;
+}
+
+aside#sidebar-quicklinks {
+  background-color: rgb(245, 245, 245);
+  padding: 2rem 8%;
+  border-right: 1px solid var(--border-primary);
+  overflow: scroll !important;
+}
+
+
+
+section.document-toc {
+  background-color: white;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--border-primary);
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.document-toc-heading {
+  font-weight: 500 !important;
+  letter-spacing: 0px !important;
+  font-size: 1.5rem !important;
+  color: var(--text-primary);
+}
+
+.languages-switcher-menu {
+  display: none;
+}
+
+h4.sidebar-heading {
+  font-size: 1.4rem !important;
+  letter-spacing: 0.9px !important;
+}
+
+footer {
+  border-top: 1px solid var(--border-primary);
+}
+
+ul.main-menu li.top-level-entry-container ul.submenu li a:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+h2.footer-nav-heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+footer#nav-footer li.footer-nav-item a {
+  color: rgb(139, 139, 139);
+}
+
+footer#nav-footer li.footer-nav-item a:hover {
+  text-decoration: underline;
+  color: black;
+}
+footer#nav-footer div.page-footer-grid div.page-footer-moz,
+footer#nav-footer div.page-footer-grid div.page-footer-moz a,
+footer#nav-footer div.page-footer-grid div.page-footer-legal,
+footer#nav-footer div.page-footer-grid div.page-footer-legal a {
+  color: rgb(196, 196, 196);
+  display: none;
+}
+
+
+footer#nav-footer div.page-footer-grid div.page-footer-moz a:hover,
+footer#nav-footer div.page-footer-grid div.page-footer-legal a:hover {
+  color: rgb(105, 105, 105);
+}
